@@ -24,6 +24,10 @@ public class BaseDbContext : DbContext
     public DbSet<CustomerFirmType> CustomerFirmTypes { get; set; }
     public DbSet<CustomerGroup> CustomerGroups { get; set; }
     public DbSet<CustomerSector> CustomerSectors { get; set; }
+    public DbSet<EBill> EBills { get; set; }
+    public DbSet<FirmType> FirmTypes { get; set; }
+    public DbSet<Group> Groups { get; set; }
+    public DbSet<Sector> Sectors { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)

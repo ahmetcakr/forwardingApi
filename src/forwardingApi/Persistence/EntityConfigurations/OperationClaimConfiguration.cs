@@ -215,6 +215,62 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region EBills
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "EBills.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "EBills.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "EBills.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "EBills.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "EBills.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "EBills.Delete" });
+        
+        #endregion
+        
+        
+        #region FirmTypes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FirmTypes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FirmTypes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FirmTypes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FirmTypes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FirmTypes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FirmTypes.Delete" });
+        
+        #endregion
+        
+        
+        #region Groups
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Groups.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Groups.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Groups.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Groups.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Groups.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Groups.Delete" });
+        
+        #endregion
+        
+        
+        #region Sectors
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Sectors.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Sectors.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Sectors.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Sectors.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Sectors.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Sectors.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }

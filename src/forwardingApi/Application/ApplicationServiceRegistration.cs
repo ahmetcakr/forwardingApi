@@ -24,6 +24,10 @@ using Application.Services.CustomerEBills;
 using Application.Services.CustomerFirmTypes;
 using Application.Services.CustomerGroups;
 using Application.Services.CustomerSectors;
+using Application.Services.EBills;
+using Application.Services.FirmTypes;
+using Application.Services.Groups;
+using Application.Services.Sectors;
 
 namespace Application;
 
@@ -67,6 +71,10 @@ public static class ApplicationServiceRegistration
         services.AddScoped<ICustomerFirmTypesService, CustomerFirmTypesManager>();
         services.AddScoped<ICustomerGroupsService, CustomerGroupsManager>();
         services.AddScoped<ICustomerSectorsService, CustomerSectorsManager>();
+        services.AddScoped<IEBillsService, EBillsManager>();
+        services.AddScoped<IFirmTypesService, FirmTypesManager>();
+        services.AddScoped<IGroupsService, GroupsManager>();
+        services.AddScoped<ISectorsService, SectorsManager>();
         return services;
     }
 
