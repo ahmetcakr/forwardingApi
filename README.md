@@ -1,34 +1,3 @@
-<p align="center">
-  <a href="https://github.com/kodlamaio-projects/nArchitecture/graphs/contributors"><img src="https://img.shields.io/github/contributors/kodlamaio-projects/nArchitecture.svg?style=for-the-badge"></a>
-  <a href="https://github.com/kodlamaio-projects/nArchitecture/network/members"><img src="https://img.shields.io/github/forks/kodlamaio-projects/nArchitecture.svg?style=for-the-badge"></a>
-  <a href="https://github.com/kodlamaio-projects/nArchitecture/stargazers"><img src="https://img.shields.io/github/stars/kodlamaio-projects/nArchitecture.svg?style=for-the-badge"></a>
-  <a href="https://github.com/kodlamaio-projects/nArchitecture/issues"><img src="https://img.shields.io/github/issues/kodlamaio-projects/nArchitecture.svg?style=for-the-badge"></a>
-  <a href="https://github.com/kodlamaio-projects/nArchitecture/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kodlamaio-projects/nArchitecture.svg?style=for-the-badge"></a>
-</p><br />
-
-<p align="center">
-  <a href="https://github.com/kodlamaio-projects/nArchitecture"><img src="https://user-images.githubusercontent.com/53148314/194872467-827dc967-acee-4bca-88a2-59ed5695bebf.png" height="125"></a>
-  <h3 align="center">nArchitecture Project
-</h3>
-  <p align="center">
-    <!-- PROJECT_DESCRIPTION -->
-    <!-- <br />
-    <a href="https://github.com/kodlamaio-projects/nArchitecture"><strong>Explore the docs »</strong></a>
-    <br /> -->
-    <!-- <br />
-    <a href="https://github.com/kodlamaio-projects/nArchitecture">View Demo</a>
-    · -->
-    <a href="https://github.com/kodlamaio-projects/nArchitecture/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/kodlamaio-projects/nArchitecture/issues">Request Feature</a>
-  </p>
-</p>
-
-## 💻 About The Project
-
-As Kodlama.io, we decided to share examples of completed projects. Inspired by Clean Architecture, nArchitecture is a monolith project. In this project, which is a rental car simulation, we have completed the project with advanced techniques. A project has been created that includes Clean Architecture, CQRS, Advanced Repository, Dynamic Querying, JWT, OTP, Google & Microsoft Auth, Role Based Management, Distributed Caching(Redis), Logging (Serilog), Elastic Search, and much more. By contributing, you can support the project and learn new things.
-
-### Built With
 
 [![](https://img.shields.io/badge/.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://learn.microsoft.com/tr-tr/dotnet/welcome)
 
@@ -67,11 +36,7 @@ To get a local copy up and running follow these simple steps.
 
 1. If not, Install dotnet tool `dotnet tool restore`.
 2. Run format command `dotnet csharpier .`
-
-## 🚧 Roadmap
-
-See the [open issues](https://github.com/kodlamaio-projects/nArchitecture/issues) for a list of proposed features (and known issues).
-
+   
 ## 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -86,7 +51,7 @@ Contributions are what make the open source community such an amazing place to b
 
 Contributing on Core Packages With This Repo:
 
-1. Fork the [nArchitecture.Core](https://github.com/kodlamaio-projects/nArchitecture.Core) project
+1. Fork the project
 2. Locate to `src/corePackages` path (`cd .\src\corePackages\`)
 3. Add your forked nArchitecture.Core repository remote address (`git remote add <YourUserName> https://github.com/<YourUserName>/nArchitecture.Core.git`)
 4. Create your Feature Branch (`git checkout -b <Feature>/<AmazingFeature>'`)
@@ -109,10 +74,3 @@ If your pull request is accepted and merged:
 ## ⚖️ License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## 📧 Contact
-
-**Project Link:** [https://github.com/kodlamaio-projects/nArchitecture](https://github.com/kodlamaio-projects/nArchitecture)
-
-<!-- ## 🙏 Acknowledgements
-- []() -->
