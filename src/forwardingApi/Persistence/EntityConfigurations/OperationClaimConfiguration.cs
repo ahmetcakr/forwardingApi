@@ -103,6 +103,118 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region CustomerCommercialDetails
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialDetails.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialDetails.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialDetails.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialDetails.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialDetails.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialDetails.Delete" });
+        
+        #endregion
+        
+        
+        #region CustomerCommercialTypes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialTypes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialTypes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialTypes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialTypes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialTypes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerCommercialTypes.Delete" });
+        
+        #endregion
+        
+        
+        #region CustomerEBills
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Delete" });
+        
+        #endregion
+        
+        
+        #region CustomerEBills
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerEBills.Delete" });
+        
+        #endregion
+        
+        
+        #region CustomerFirmTypes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Delete" });
+        
+        #endregion
+        
+        
+        #region CustomerFirmTypes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerFirmTypes.Delete" });
+        
+        #endregion
+        
+        
+        #region CustomerGroups
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerGroups.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerGroups.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerGroups.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerGroups.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerGroups.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerGroups.Delete" });
+        
+        #endregion
+        
+        
+        #region CustomerSectors
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerSectors.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerSectors.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerSectors.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerSectors.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerSectors.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "CustomerSectors.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }

@@ -18,6 +18,12 @@ using System.Reflection;
 using Application.Services.Customers;
 using Application.Services.CommercialDetails;
 using Application.Services.CommercialTypes;
+using Application.Services.CustomerCommercialDetails;
+using Application.Services.CustomerCommercialTypes;
+using Application.Services.CustomerEBills;
+using Application.Services.CustomerFirmTypes;
+using Application.Services.CustomerGroups;
+using Application.Services.CustomerSectors;
 
 namespace Application;
 
@@ -53,6 +59,14 @@ public static class ApplicationServiceRegistration
         services.AddScoped<ICommercialTypesService, CommercialTypesManager>();
         services.AddScoped<ICommercialDetailsService, CommercialDetailsManager>();
         services.AddScoped<ICommercialTypesService, CommercialTypesManager>();
+        services.AddScoped<ICustomerCommercialDetailsService, CustomerCommercialDetailsManager>();
+        services.AddScoped<ICustomerCommercialTypesService, CustomerCommercialTypesManager>();
+        services.AddScoped<ICustomerEBillsService, CustomerEBillsManager>();
+        services.AddScoped<ICustomerEBillsService, CustomerEBillsManager>();
+        services.AddScoped<ICustomerFirmTypesService, CustomerFirmTypesManager>();
+        services.AddScoped<ICustomerFirmTypesService, CustomerFirmTypesManager>();
+        services.AddScoped<ICustomerGroupsService, CustomerGroupsManager>();
+        services.AddScoped<ICustomerSectorsService, CustomerSectorsManager>();
         return services;
     }
 

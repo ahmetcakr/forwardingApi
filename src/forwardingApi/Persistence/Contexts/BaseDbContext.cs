@@ -18,6 +18,12 @@ public class BaseDbContext : DbContext
     public DbSet<Customer> Customers { get; set; }
     public DbSet<CommercialDetail> CommercialDetails { get; set; }
     public DbSet<CommercialType> CommercialTypes { get; set; }
+    public DbSet<CustomerCommercialDetail> CustomerCommercialDetails { get; set; }
+    public DbSet<CustomerCommercialType> CustomerCommercialTypes { get; set; }
+    public DbSet<CustomerEBill> CustomerEBills { get; set; }
+    public DbSet<CustomerFirmType> CustomerFirmTypes { get; set; }
+    public DbSet<CustomerGroup> CustomerGroups { get; set; }
+    public DbSet<CustomerSector> CustomerSectors { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)
