@@ -24,6 +24,14 @@ public static class PersistenceServiceRegistration
         services.AddScoped<ICommercialTypeRepository, CommercialTypeRepository>();
         services.AddScoped<ICommercialDetailRepository, CommercialDetailRepository>();
         services.AddScoped<ICommercialTypeRepository, CommercialTypeRepository>();
+        services.AddScoped<ICustomerCommercialDetailRepository, CustomerCommercialDetailRepository>();
+        services.AddScoped<ICustomerCommercialTypeRepository, CustomerCommercialTypeRepository>();
+        services.AddScoped<ICustomerEBillRepository, CustomerEBillRepository>();
+        services.AddScoped<ICustomerEBillRepository, CustomerEBillRepository>();
+        services.AddScoped<ICustomerFirmTypeRepository, CustomerFirmTypeRepository>();
+        services.AddScoped<ICustomerFirmTypeRepository, CustomerFirmTypeRepository>();
+        services.AddScoped<ICustomerGroupRepository, CustomerGroupRepository>();
+        services.AddScoped<ICustomerSectorRepository, CustomerSectorRepository>();
         return services;
     }
 }
