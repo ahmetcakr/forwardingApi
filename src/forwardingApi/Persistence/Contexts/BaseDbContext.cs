@@ -33,6 +33,7 @@ public class BaseDbContext : DbContext
     public DbSet<Feeder> Feeders { get; set; }
     public DbSet<BookingType> BookingTypes { get; set; }
     public DbSet<Consigne> Consignes { get; set; }
+    public DbSet<FreeDay> FreeDays { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)

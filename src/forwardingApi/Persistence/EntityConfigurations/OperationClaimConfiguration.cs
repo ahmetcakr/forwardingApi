@@ -341,6 +341,20 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region FreeDays
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }
