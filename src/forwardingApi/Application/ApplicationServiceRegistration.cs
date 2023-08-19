@@ -30,6 +30,7 @@ using Application.Services.Groups;
 using Application.Services.Sectors;
 using Application.Services.Demurrages;
 using Application.Services.Detentions;
+using Application.Services.Feeders;
 
 namespace Application;
 
@@ -79,6 +80,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<ISectorsService, SectorsManager>();
         services.AddScoped<IDemurragesService, DemurragesManager>();
         services.AddScoped<IDetentionsService, DetentionsManager>();
+        services.AddScoped<IFeedersService, FeedersManager>();
         return services;
     }
 
