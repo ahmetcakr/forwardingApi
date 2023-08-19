@@ -13,7 +13,7 @@ namespace Application.Features.BookingTypes.Commands.Update;
 public class UpdateBookingTypeCommand : IRequest<UpdatedBookingTypeResponse>, ISecuredRequest, ITransactionalRequest
 {
     public int Id { get; set; }
-    public string Type { get; set; }
+    public string Name { get; set; }
 
     public string[] Roles => new[] { Admin, Write, BookingTypesOperationClaims.Update };
 

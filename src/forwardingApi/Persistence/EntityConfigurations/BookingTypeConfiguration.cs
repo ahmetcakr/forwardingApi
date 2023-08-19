@@ -11,7 +11,7 @@ public class BookingTypeConfiguration : IEntityTypeConfiguration<BookingType>
         builder.ToTable("BookingTypes").HasKey(bt => bt.Id);
 
         builder.Property(bt => bt.Id).HasColumnName("Id").IsRequired();
-        builder.Property(bt => bt.Type).HasColumnName("Type");
+        builder.Property(bt => bt.Name).HasColumnName("Name");
         builder.Property(bt => bt.CreatedDate).HasColumnName("CreatedDate").IsRequired();
         builder.Property(bt => bt.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(bt => bt.DeletedDate).HasColumnName("DeletedDate");

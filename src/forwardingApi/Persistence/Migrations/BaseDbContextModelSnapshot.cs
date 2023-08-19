@@ -1142,6 +1142,150 @@ namespace Persistence.Migrations
                             Id = 175,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Voyages.Delete"
+                        },
+                        new
+                        {
+                            Id = 176,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Admin"
+                        },
+                        new
+                        {
+                            Id = 177,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Read"
+                        },
+                        new
+                        {
+                            Id = 178,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Write"
+                        },
+                        new
+                        {
+                            Id = 179,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Add"
+                        },
+                        new
+                        {
+                            Id = 180,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Update"
+                        },
+                        new
+                        {
+                            Id = 181,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Delete"
+                        },
+                        new
+                        {
+                            Id = 182,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Admin"
+                        },
+                        new
+                        {
+                            Id = 183,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Read"
+                        },
+                        new
+                        {
+                            Id = 184,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Write"
+                        },
+                        new
+                        {
+                            Id = 185,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Add"
+                        },
+                        new
+                        {
+                            Id = 186,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Update"
+                        },
+                        new
+                        {
+                            Id = 187,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bookings.Delete"
+                        },
+                        new
+                        {
+                            Id = 188,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Admin"
+                        },
+                        new
+                        {
+                            Id = 189,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Read"
+                        },
+                        new
+                        {
+                            Id = 190,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Write"
+                        },
+                        new
+                        {
+                            Id = 191,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Add"
+                        },
+                        new
+                        {
+                            Id = 192,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Update"
+                        },
+                        new
+                        {
+                            Id = 193,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Delete"
+                        },
+                        new
+                        {
+                            Id = 194,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Companies.Admin"
+                        },
+                        new
+                        {
+                            Id = 195,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Companies.Read"
+                        },
+                        new
+                        {
+                            Id = 196,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Companies.Write"
+                        },
+                        new
+                        {
+                            Id = 197,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Companies.Add"
+                        },
+                        new
+                        {
+                            Id = 198,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Companies.Update"
+                        },
+                        new
+                        {
+                            Id = 199,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Companies.Delete"
                         });
                 });
 
@@ -1317,8 +1461,8 @@ namespace Persistence.Migrations
                             Email = "admin@admin.com",
                             FirstName = "Admin",
                             LastName = "NArchitecture",
-                            PasswordHash = new byte[] { 161, 205, 21, 149, 70, 157, 92, 58, 74, 196, 180, 231, 199, 32, 172, 109, 193, 127, 73, 20, 42, 200, 42, 63, 207, 105, 254, 201, 61, 113, 138, 162, 60, 192, 90, 4, 239, 88, 247, 48, 254, 12, 190, 233, 255, 207, 234, 128, 159, 224, 96, 234, 125, 186, 245, 29, 91, 51, 149, 1, 78, 17, 113, 118 },
-                            PasswordSalt = new byte[] { 15, 75, 103, 93, 244, 68, 215, 124, 188, 220, 112, 19, 35, 177, 175, 246, 32, 101, 16, 138, 189, 186, 248, 134, 209, 132, 72, 119, 236, 55, 70, 192, 13, 206, 70, 178, 52, 89, 30, 229, 152, 196, 126, 16, 216, 126, 107, 142, 142, 8, 40, 223, 192, 231, 79, 69, 226, 167, 220, 155, 42, 177, 113, 160, 28, 61, 144, 227, 166, 169, 234, 138, 188, 215, 224, 159, 169, 245, 109, 221, 132, 168, 144, 63, 255, 35, 122, 0, 57, 189, 58, 147, 49, 162, 165, 116, 177, 170, 19, 133, 237, 224, 234, 242, 182, 118, 238, 184, 60, 213, 58, 67, 222, 160, 51, 78, 169, 31, 185, 128, 5, 41, 4, 229, 210, 156, 72, 178 },
+                            PasswordHash = new byte[] { 149, 47, 65, 10, 153, 139, 240, 177, 235, 215, 139, 66, 120, 255, 238, 183, 88, 128, 72, 139, 126, 127, 161, 32, 146, 9, 178, 23, 228, 143, 163, 195, 210, 11, 78, 52, 237, 124, 189, 230, 91, 205, 81, 18, 38, 252, 235, 26, 117, 245, 71, 210, 190, 7, 66, 119, 28, 5, 134, 179, 145, 12, 116, 183 },
+                            PasswordSalt = new byte[] { 241, 103, 67, 29, 200, 22, 245, 61, 67, 117, 121, 149, 113, 120, 10, 146, 122, 227, 46, 233, 35, 191, 32, 93, 135, 7, 136, 97, 161, 197, 54, 220, 115, 199, 69, 101, 109, 68, 217, 40, 78, 85, 189, 56, 98, 149, 238, 121, 238, 68, 133, 59, 215, 50, 214, 96, 193, 187, 249, 217, 208, 221, 78, 137, 27, 160, 83, 29, 118, 196, 100, 193, 126, 139, 147, 229, 159, 195, 126, 207, 126, 0, 12, 155, 72, 190, 58, 226, 241, 54, 199, 186, 102, 94, 103, 116, 200, 167, 224, 193, 121, 168, 107, 200, 57, 161, 114, 223, 176, 208, 59, 192, 42, 70, 61, 126, 209, 123, 161, 40, 117, 245, 101, 121, 188, 227, 37, 138 },
                             Status = true
                         });
                 });
@@ -1370,6 +1514,201 @@ namespace Persistence.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Domain.Entities.Booking", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Agent")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Agent");
+
+                    b.Property<int>("ApplyToID")
+                        .HasColumnType("int")
+                        .HasColumnName("ApplyToID");
+
+                    b.Property<int>("BookingTypeID")
+                        .HasColumnType("int")
+                        .HasColumnName("BookingTypeID");
+
+                    b.Property<int>("CompanyId")
+                        .HasColumnType("int")
+                        .HasColumnName("CompanyId");
+
+                    b.Property<int?>("ConsigneID")
+                        .HasColumnType("int")
+                        .HasColumnName("ConsigneID");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeclarationDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeclarationDate");
+
+                    b.Property<string>("DeclarationNo")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("DeclarationNo");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<int?>("DemurrageID")
+                        .HasColumnType("int")
+                        .HasColumnName("DemurrageID");
+
+                    b.Property<int?>("DetentionID")
+                        .HasColumnType("int")
+                        .HasColumnName("DetentionID");
+
+                    b.Property<DateTime?>("Eta")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("Eta");
+
+                    b.Property<DateTime?>("Etd")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("Etd");
+
+                    b.Property<int>("FeederID")
+                        .HasColumnType("int")
+                        .HasColumnName("FeederID");
+
+                    b.Property<int>("FeederVoyageID")
+                        .HasColumnType("int")
+                        .HasColumnName("FeederVoyageID");
+
+                    b.Property<string>("FileNo")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("FileNo");
+
+                    b.Property<int?>("FreeDayID")
+                        .HasColumnType("int")
+                        .HasColumnName("FreeDayID");
+
+                    b.Property<string>("IsCopy")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("IsCopy");
+
+                    b.Property<string>("IsOrigin")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("IsOrigin");
+
+                    b.Property<string>("MBLNo")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("MBLNo");
+
+                    b.Property<int?>("MarketingResponsibleID")
+                        .HasColumnType("int")
+                        .HasColumnName("MarketingResponsibleID");
+
+                    b.Property<string>("Note")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Note");
+
+                    b.Property<int?>("NotifyID")
+                        .HasColumnType("int")
+                        .HasColumnName("NotifyID");
+
+                    b.Property<int?>("OperationResponsibleID")
+                        .HasColumnType("int")
+                        .HasColumnName("OperationResponsibleID");
+
+                    b.Property<DateTime?>("OrdinoDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("OrdinoDate");
+
+                    b.Property<int>("PodID")
+                        .HasColumnType("int")
+                        .HasColumnName("PodID");
+
+                    b.Property<int>("PolID")
+                        .HasColumnType("int")
+                        .HasColumnName("PolID");
+
+                    b.Property<string>("ProjectNo")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("ProjectNo");
+
+                    b.Property<string>("Region")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Region");
+
+                    b.Property<int?>("RouteID")
+                        .HasColumnType("int")
+                        .HasColumnName("RouteID");
+
+                    b.Property<int>("ShipID")
+                        .HasColumnType("int")
+                        .HasColumnName("ShipID");
+
+                    b.Property<int?>("ShipVoyageID")
+                        .HasColumnType("int")
+                        .HasColumnName("ShipVoyageID");
+
+                    b.Property<int>("ShipperID")
+                        .HasColumnType("int")
+                        .HasColumnName("ShipperID");
+
+                    b.Property<int?>("TotalFeeID")
+                        .HasColumnType("int")
+                        .HasColumnName("TotalFeeID");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplyToID");
+
+                    b.HasIndex("BookingTypeID");
+
+                    b.HasIndex("CompanyId");
+
+                    b.HasIndex("ConsigneID");
+
+                    b.HasIndex("DemurrageID");
+
+                    b.HasIndex("DetentionID");
+
+                    b.HasIndex("FeederID");
+
+                    b.HasIndex("FeederVoyageID");
+
+                    b.HasIndex("FreeDayID");
+
+                    b.HasIndex("MarketingResponsibleID");
+
+                    b.HasIndex("NotifyID");
+
+                    b.HasIndex("OperationResponsibleID");
+
+                    b.HasIndex("PodID");
+
+                    b.HasIndex("PolID");
+
+                    b.HasIndex("RouteID");
+
+                    b.HasIndex("ShipID");
+
+                    b.HasIndex("ShipVoyageID");
+
+                    b.HasIndex("ShipperID");
+
+                    b.HasIndex("TotalFeeID");
+
+                    b.HasIndex(new[] { "Id" }, "UK_Booking_ID")
+                        .IsUnique();
+
+                    b.ToTable("Bookings", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.BookingType", b =>
                 {
                     b.Property<int>("Id")
@@ -1387,10 +1726,10 @@ namespace Persistence.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("DeletedDate");
 
-                    b.Property<string>("Type")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Type");
+                        .HasColumnName("Name");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2")
@@ -1476,6 +1815,37 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("CommercialTypes", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CompanyName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("CompanyName");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Companies", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Consigne", b =>
@@ -2332,6 +2702,151 @@ namespace Persistence.Migrations
                     b.Navigation("OperationClaim");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Booking", b =>
+                {
+                    b.HasOne("Domain.Entities.Customer", "ApplyTo")
+                        .WithMany()
+                        .HasForeignKey("ApplyToID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.BookingType", "BookingType")
+                        .WithMany()
+                        .HasForeignKey("BookingTypeID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Customer", "Consigne")
+                        .WithMany()
+                        .HasForeignKey("ConsigneID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Domain.Entities.Demurrage", "Demurrage")
+                        .WithMany()
+                        .HasForeignKey("DemurrageID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Domain.Entities.Detention", "Detention")
+                        .WithMany()
+                        .HasForeignKey("DetentionID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Domain.Entities.Feeder", "Feeder")
+                        .WithMany()
+                        .HasForeignKey("FeederID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Voyage", "FeederVoyage")
+                        .WithMany()
+                        .HasForeignKey("FeederVoyageID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.FreeDay", "FreeDay")
+                        .WithMany()
+                        .HasForeignKey("FreeDayID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Core.Security.Entities.User", "MarketingResponsible")
+                        .WithMany()
+                        .HasForeignKey("MarketingResponsibleID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Domain.Entities.Customer", "Notify")
+                        .WithMany()
+                        .HasForeignKey("NotifyID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Core.Security.Entities.User", "OperationResponsible")
+                        .WithMany()
+                        .HasForeignKey("OperationResponsibleID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Domain.Entities.Pod", "Pod")
+                        .WithMany()
+                        .HasForeignKey("PodID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Pol", "Pol")
+                        .WithMany()
+                        .HasForeignKey("PolID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Route", "Route")
+                        .WithMany()
+                        .HasForeignKey("RouteID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Domain.Entities.Ship", "Ship")
+                        .WithMany()
+                        .HasForeignKey("ShipID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Voyage", "ShipVoyage")
+                        .WithMany()
+                        .HasForeignKey("ShipVoyageID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("Domain.Entities.Customer", "Shipper")
+                        .WithMany()
+                        .HasForeignKey("ShipperID")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.TotalFee", "TotalFee")
+                        .WithMany()
+                        .HasForeignKey("TotalFeeID")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("ApplyTo");
+
+                    b.Navigation("BookingType");
+
+                    b.Navigation("Company");
+
+                    b.Navigation("Consigne");
+
+                    b.Navigation("Demurrage");
+
+                    b.Navigation("Detention");
+
+                    b.Navigation("Feeder");
+
+                    b.Navigation("FeederVoyage");
+
+                    b.Navigation("FreeDay");
+
+                    b.Navigation("MarketingResponsible");
+
+                    b.Navigation("Notify");
+
+                    b.Navigation("OperationResponsible");
+
+                    b.Navigation("Pod");
+
+                    b.Navigation("Pol");
+
+                    b.Navigation("Route");
+
+                    b.Navigation("Ship");
+
+                    b.Navigation("ShipVoyage");
+
+                    b.Navigation("Shipper");
+
+                    b.Navigation("TotalFee");
                 });
 
             modelBuilder.Entity("Core.Security.Entities.OperationClaim", b =>

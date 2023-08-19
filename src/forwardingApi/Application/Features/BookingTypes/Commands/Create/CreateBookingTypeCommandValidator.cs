@@ -6,6 +6,6 @@ public class CreateBookingTypeCommandValidator : AbstractValidator<CreateBooking
 {
     public CreateBookingTypeCommandValidator()
     {
-        RuleFor(c => c.Type).NotEmpty();
+        RuleFor(c => c.Name).NotEmpty();
     }
 }

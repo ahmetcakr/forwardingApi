@@ -40,6 +40,8 @@ using Application.Services.Routes;
 using Application.Services.Ships;
 using Application.Services.TotalFees;
 using Application.Services.Voyages;
+using Application.Services.Bookings;
+using Application.Services.Companies;
 
 namespace Application;
 
@@ -99,6 +101,10 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IShipsService, ShipsManager>();
         services.AddScoped<ITotalFeesService, TotalFeesManager>();
         services.AddScoped<IVoyagesService, VoyagesManager>();
+        services.AddScoped<IBookingsService, BookingsManager>();
+        services.AddScoped<IBookingsService, BookingsManager>();
+        services.AddScoped<IBookingTypesService, BookingTypesManager>();
+        services.AddScoped<ICompaniesService, CompaniesManager>();
         return services;
     }
 

@@ -12,7 +12,7 @@ namespace Application.Features.BookingTypes.Commands.Create;
 
 public class CreateBookingTypeCommand : IRequest<CreatedBookingTypeResponse>, ISecuredRequest, ITransactionalRequest
 {
-    public string Type { get; set; }
+    public string Name { get; set; }
 
     public string[] Roles => new[] { Admin, Write, BookingTypesOperationClaims.Create };
 

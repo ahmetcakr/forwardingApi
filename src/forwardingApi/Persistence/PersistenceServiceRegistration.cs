@@ -48,6 +48,10 @@ public static class PersistenceServiceRegistration
         services.AddScoped<IShipRepository, ShipRepository>();
         services.AddScoped<ITotalFeeRepository, TotalFeeRepository>();
         services.AddScoped<IVoyageRepository, VoyageRepository>();
+        services.AddScoped<IBookingRepository, BookingRepository>();
+        services.AddScoped<IBookingRepository, BookingRepository>();
+        services.AddScoped<IBookingTypeRepository, BookingTypeRepository>();
+        services.AddScoped<ICompanyRepository, CompanyRepository>();
         return services;
     }
 }
