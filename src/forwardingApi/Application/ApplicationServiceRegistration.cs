@@ -30,6 +30,16 @@ using Application.Services.Groups;
 using Application.Services.Sectors;
 using Application.Services.Demurrages;
 using Application.Services.Detentions;
+using Application.Services.Feeders;
+using Application.Services.BookingTypes;
+using Application.Services.Consignes;
+using Application.Services.FreeDays;
+using Application.Services.Pods;
+using Application.Services.Pols;
+using Application.Services.Routes;
+using Application.Services.Ships;
+using Application.Services.TotalFees;
+using Application.Services.Voyages;
 
 namespace Application;
 
@@ -79,6 +89,16 @@ public static class ApplicationServiceRegistration
         services.AddScoped<ISectorsService, SectorsManager>();
         services.AddScoped<IDemurragesService, DemurragesManager>();
         services.AddScoped<IDetentionsService, DetentionsManager>();
+        services.AddScoped<IFeedersService, FeedersManager>();
+        services.AddScoped<IBookingTypesService, BookingTypesManager>();
+        services.AddScoped<IConsignesService, ConsignesManager>();
+        services.AddScoped<IFreeDaysService, FreeDaysManager>();
+        services.AddScoped<IPodsService, PodsManager>();
+        services.AddScoped<IPolsService, PolsManager>();
+        services.AddScoped<IRoutesService, RoutesManager>();
+        services.AddScoped<IShipsService, ShipsManager>();
+        services.AddScoped<ITotalFeesService, TotalFeesManager>();
+        services.AddScoped<IVoyagesService, VoyagesManager>();
         return services;
     }
 

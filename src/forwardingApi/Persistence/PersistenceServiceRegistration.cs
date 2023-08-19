@@ -38,6 +38,16 @@ public static class PersistenceServiceRegistration
         services.AddScoped<ISectorRepository, SectorRepository>();
         services.AddScoped<IDemurrageRepository, DemurrageRepository>();
         services.AddScoped<IDetentionRepository, DetentionRepository>();
+        services.AddScoped<IFeederRepository, FeederRepository>();
+        services.AddScoped<IBookingTypeRepository, BookingTypeRepository>();
+        services.AddScoped<IConsigneRepository, ConsigneRepository>();
+        services.AddScoped<IFreeDayRepository, FreeDayRepository>();
+        services.AddScoped<IPodRepository, PodRepository>();
+        services.AddScoped<IPolRepository, PolRepository>();
+        services.AddScoped<IRouteRepository, RouteRepository>();
+        services.AddScoped<IShipRepository, ShipRepository>();
+        services.AddScoped<ITotalFeeRepository, TotalFeeRepository>();
+        services.AddScoped<IVoyageRepository, VoyageRepository>();
         return services;
     }
 }

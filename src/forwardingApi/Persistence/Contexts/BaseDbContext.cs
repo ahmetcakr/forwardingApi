@@ -30,6 +30,16 @@ public class BaseDbContext : DbContext
     public DbSet<Sector> Sectors { get; set; }
     public DbSet<Demurrage> Demurrages { get; set; }
     public DbSet<Detention> Detentions { get; set; }
+    public DbSet<Feeder> Feeders { get; set; }
+    public DbSet<BookingType> BookingTypes { get; set; }
+    public DbSet<Consigne> Consignes { get; set; }
+    public DbSet<FreeDay> FreeDays { get; set; }
+    public DbSet<Pod> Pods { get; set; }
+    public DbSet<Pol> Pols { get; set; }
+    public DbSet<Route> Routes { get; set; }
+    public DbSet<Ship> Ships { get; set; }
+    public DbSet<TotalFee> TotalFees { get; set; }
+    public DbSet<Voyage> Voyages { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)

@@ -299,6 +299,146 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region Feeders
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Feeders.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Feeders.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Feeders.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Feeders.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Feeders.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Feeders.Delete" });
+        
+        #endregion
+        
+        
+        #region BookingTypes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Delete" });
+        
+        #endregion
+        
+        
+        #region Consignes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Delete" });
+        
+        #endregion
+        
+        
+        #region FreeDays
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "FreeDays.Delete" });
+        
+        #endregion
+        
+        
+        #region Pods
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Delete" });
+        
+        #endregion
+        
+        
+        #region Pols
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pols.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pols.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pols.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pols.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pols.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pols.Delete" });
+        
+        #endregion
+        
+        
+        #region Routes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Delete" });
+        
+        #endregion
+        
+        
+        #region Ships
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ships.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ships.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ships.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ships.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ships.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ships.Delete" });
+        
+        #endregion
+        
+        
+        #region TotalFees
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Delete" });
+        
+        #endregion
+        
+        
+        #region Voyages
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Voyages.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Voyages.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Voyages.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Voyages.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Voyages.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Voyages.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }

@@ -710,6 +710,438 @@ namespace Persistence.Migrations
                             Id = 103,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Sectors.Delete"
+                        },
+                        new
+                        {
+                            Id = 104,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Demurrages.Admin"
+                        },
+                        new
+                        {
+                            Id = 105,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Demurrages.Read"
+                        },
+                        new
+                        {
+                            Id = 106,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Demurrages.Write"
+                        },
+                        new
+                        {
+                            Id = 107,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Demurrages.Add"
+                        },
+                        new
+                        {
+                            Id = 108,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Demurrages.Update"
+                        },
+                        new
+                        {
+                            Id = 109,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Demurrages.Delete"
+                        },
+                        new
+                        {
+                            Id = 110,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Detentions.Admin"
+                        },
+                        new
+                        {
+                            Id = 111,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Detentions.Read"
+                        },
+                        new
+                        {
+                            Id = 112,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Detentions.Write"
+                        },
+                        new
+                        {
+                            Id = 113,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Detentions.Add"
+                        },
+                        new
+                        {
+                            Id = 114,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Detentions.Update"
+                        },
+                        new
+                        {
+                            Id = 115,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Detentions.Delete"
+                        },
+                        new
+                        {
+                            Id = 116,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Feeders.Admin"
+                        },
+                        new
+                        {
+                            Id = 117,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Feeders.Read"
+                        },
+                        new
+                        {
+                            Id = 118,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Feeders.Write"
+                        },
+                        new
+                        {
+                            Id = 119,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Feeders.Add"
+                        },
+                        new
+                        {
+                            Id = 120,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Feeders.Update"
+                        },
+                        new
+                        {
+                            Id = 121,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Feeders.Delete"
+                        },
+                        new
+                        {
+                            Id = 122,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Admin"
+                        },
+                        new
+                        {
+                            Id = 123,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Read"
+                        },
+                        new
+                        {
+                            Id = 124,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Write"
+                        },
+                        new
+                        {
+                            Id = 125,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Add"
+                        },
+                        new
+                        {
+                            Id = 126,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Update"
+                        },
+                        new
+                        {
+                            Id = 127,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "BookingTypes.Delete"
+                        },
+                        new
+                        {
+                            Id = 128,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Consignes.Admin"
+                        },
+                        new
+                        {
+                            Id = 129,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Consignes.Read"
+                        },
+                        new
+                        {
+                            Id = 130,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Consignes.Write"
+                        },
+                        new
+                        {
+                            Id = 131,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Consignes.Add"
+                        },
+                        new
+                        {
+                            Id = 132,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Consignes.Update"
+                        },
+                        new
+                        {
+                            Id = 133,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Consignes.Delete"
+                        },
+                        new
+                        {
+                            Id = 134,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FreeDays.Admin"
+                        },
+                        new
+                        {
+                            Id = 135,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FreeDays.Read"
+                        },
+                        new
+                        {
+                            Id = 136,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FreeDays.Write"
+                        },
+                        new
+                        {
+                            Id = 137,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FreeDays.Add"
+                        },
+                        new
+                        {
+                            Id = 138,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FreeDays.Update"
+                        },
+                        new
+                        {
+                            Id = 139,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "FreeDays.Delete"
+                        },
+                        new
+                        {
+                            Id = 140,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pods.Admin"
+                        },
+                        new
+                        {
+                            Id = 141,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pods.Read"
+                        },
+                        new
+                        {
+                            Id = 142,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pods.Write"
+                        },
+                        new
+                        {
+                            Id = 143,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pods.Add"
+                        },
+                        new
+                        {
+                            Id = 144,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pods.Update"
+                        },
+                        new
+                        {
+                            Id = 145,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pods.Delete"
+                        },
+                        new
+                        {
+                            Id = 146,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pols.Admin"
+                        },
+                        new
+                        {
+                            Id = 147,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pols.Read"
+                        },
+                        new
+                        {
+                            Id = 148,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pols.Write"
+                        },
+                        new
+                        {
+                            Id = 149,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pols.Add"
+                        },
+                        new
+                        {
+                            Id = 150,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pols.Update"
+                        },
+                        new
+                        {
+                            Id = 151,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Pols.Delete"
+                        },
+                        new
+                        {
+                            Id = 152,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Routes.Admin"
+                        },
+                        new
+                        {
+                            Id = 153,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Routes.Read"
+                        },
+                        new
+                        {
+                            Id = 154,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Routes.Write"
+                        },
+                        new
+                        {
+                            Id = 155,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Routes.Add"
+                        },
+                        new
+                        {
+                            Id = 156,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Routes.Update"
+                        },
+                        new
+                        {
+                            Id = 157,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Routes.Delete"
+                        },
+                        new
+                        {
+                            Id = 158,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Ships.Admin"
+                        },
+                        new
+                        {
+                            Id = 159,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Ships.Read"
+                        },
+                        new
+                        {
+                            Id = 160,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Ships.Write"
+                        },
+                        new
+                        {
+                            Id = 161,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Ships.Add"
+                        },
+                        new
+                        {
+                            Id = 162,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Ships.Update"
+                        },
+                        new
+                        {
+                            Id = 163,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Ships.Delete"
+                        },
+                        new
+                        {
+                            Id = 164,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "TotalFees.Admin"
+                        },
+                        new
+                        {
+                            Id = 165,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "TotalFees.Read"
+                        },
+                        new
+                        {
+                            Id = 166,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "TotalFees.Write"
+                        },
+                        new
+                        {
+                            Id = 167,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "TotalFees.Add"
+                        },
+                        new
+                        {
+                            Id = 168,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "TotalFees.Update"
+                        },
+                        new
+                        {
+                            Id = 169,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "TotalFees.Delete"
+                        },
+                        new
+                        {
+                            Id = 170,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Voyages.Admin"
+                        },
+                        new
+                        {
+                            Id = 171,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Voyages.Read"
+                        },
+                        new
+                        {
+                            Id = 172,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Voyages.Write"
+                        },
+                        new
+                        {
+                            Id = 173,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Voyages.Add"
+                        },
+                        new
+                        {
+                            Id = 174,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Voyages.Update"
+                        },
+                        new
+                        {
+                            Id = 175,
+                            CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Voyages.Delete"
                         });
                 });
 
@@ -885,8 +1317,8 @@ namespace Persistence.Migrations
                             Email = "admin@admin.com",
                             FirstName = "Admin",
                             LastName = "NArchitecture",
-                            PasswordHash = new byte[] { 64, 61, 143, 37, 32, 254, 246, 127, 234, 40, 110, 15, 65, 90, 47, 227, 175, 67, 192, 62, 216, 90, 237, 181, 56, 37, 53, 63, 255, 94, 223, 214, 26, 53, 5, 236, 149, 41, 241, 212, 74, 64, 123, 125, 11, 170, 17, 123, 119, 11, 123, 102, 66, 30, 95, 37, 13, 148, 214, 97, 112, 110, 106, 170 },
-                            PasswordSalt = new byte[] { 134, 31, 52, 203, 178, 66, 170, 14, 94, 176, 244, 234, 186, 120, 88, 37, 68, 186, 79, 39, 83, 63, 107, 155, 237, 239, 170, 169, 41, 118, 229, 59, 35, 130, 149, 66, 245, 78, 148, 129, 111, 116, 116, 99, 37, 118, 104, 8, 184, 47, 136, 85, 85, 230, 207, 242, 67, 202, 40, 41, 211, 175, 47, 181, 156, 145, 10, 163, 56, 146, 192, 87, 197, 136, 95, 164, 73, 1, 45, 33, 99, 52, 136, 217, 150, 184, 53, 93, 152, 55, 226, 196, 53, 89, 150, 236, 141, 232, 244, 97, 235, 186, 236, 8, 110, 35, 192, 136, 79, 132, 134, 90, 222, 251, 223, 7, 113, 200, 253, 138, 115, 223, 58, 246, 149, 242, 96, 92 },
+                            PasswordHash = new byte[] { 161, 205, 21, 149, 70, 157, 92, 58, 74, 196, 180, 231, 199, 32, 172, 109, 193, 127, 73, 20, 42, 200, 42, 63, 207, 105, 254, 201, 61, 113, 138, 162, 60, 192, 90, 4, 239, 88, 247, 48, 254, 12, 190, 233, 255, 207, 234, 128, 159, 224, 96, 234, 125, 186, 245, 29, 91, 51, 149, 1, 78, 17, 113, 118 },
+                            PasswordSalt = new byte[] { 15, 75, 103, 93, 244, 68, 215, 124, 188, 220, 112, 19, 35, 177, 175, 246, 32, 101, 16, 138, 189, 186, 248, 134, 209, 132, 72, 119, 236, 55, 70, 192, 13, 206, 70, 178, 52, 89, 30, 229, 152, 196, 126, 16, 216, 126, 107, 142, 142, 8, 40, 223, 192, 231, 79, 69, 226, 167, 220, 155, 42, 177, 113, 160, 28, 61, 144, 227, 166, 169, 234, 138, 188, 215, 224, 159, 169, 245, 109, 221, 132, 168, 144, 63, 255, 35, 122, 0, 57, 189, 58, 147, 49, 162, 165, 116, 177, 170, 19, 133, 237, 224, 234, 242, 182, 118, 238, 184, 60, 213, 58, 67, 222, 160, 51, 78, 169, 31, 185, 128, 5, 41, 4, 229, 210, 156, 72, 178 },
                             Status = true
                         });
                 });
@@ -936,6 +1368,37 @@ namespace Persistence.Migrations
                             OperationClaimId = 1,
                             UserId = 1
                         });
+                });
+
+            modelBuilder.Entity("Domain.Entities.BookingType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Type");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("BookingTypes", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.CommercialDetail", b =>
@@ -1013,6 +1476,40 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("CommercialTypes", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Consigne", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Description");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("Name");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Consignes", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Customer", b =>
@@ -1281,6 +1778,78 @@ namespace Persistence.Migrations
                     b.ToTable("CustomerSectors", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.Demurrage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<int?>("Day")
+                        .HasColumnType("int")
+                        .HasColumnName("Day");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<int?>("Fee")
+                        .HasColumnType("int")
+                        .HasColumnName("Fee");
+
+                    b.Property<DateTime?>("StartDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("StartDate");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Demurrages", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Detention", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<int?>("Day")
+                        .HasColumnType("int")
+                        .HasColumnName("Day");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<int?>("Fee")
+                        .HasColumnType("int")
+                        .HasColumnName("Fee");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Detentions", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.EBill", b =>
                 {
                     b.Property<int>("Id")
@@ -1327,6 +1896,37 @@ namespace Persistence.Migrations
                     b.ToTable("EBills", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.Feeder", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<string>("FeederName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("FeederName");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Feeders", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.FirmType", b =>
                 {
                     b.Property<int>("Id")
@@ -1356,6 +1956,56 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("FirmTypes", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.FreeDay", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<int?>("Day")
+                        .HasColumnType("int")
+                        .HasColumnName("Day");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<DateTime?>("EndDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("EndDate");
+
+                    b.Property<int?>("Fee")
+                        .HasColumnType("int")
+                        .HasColumnName("Fee");
+
+                    b.Property<DateTime?>("StartDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("StartDate");
+
+                    b.Property<int?>("Total")
+                        .HasColumnType("int")
+                        .HasColumnName("Total");
+
+                    b.Property<int?>("TotalFee")
+                        .HasColumnType("int")
+                        .HasColumnName("TotalFee");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("FreeDays", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Entities.Group", b =>
@@ -1389,6 +2039,118 @@ namespace Persistence.Migrations
                     b.ToTable("Groups", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.Pod", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<string>("PodName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("PodName");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pods", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Pol", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<string>("PolName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("PolName");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Pols", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Route", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<string>("RouteCode")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("RouteCode");
+
+                    b.Property<string>("RouteDescription")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("RouteDescription");
+
+                    b.Property<string>("RouteName")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("RouteName");
+
+                    b.Property<string>("RouteNote")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("RouteNote");
+
+                    b.Property<string>("RouteStatus")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("RouteStatus");
+
+                    b.Property<string>("RouteType")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("RouteType");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Routes", (string)null);
+                });
+
             modelBuilder.Entity("Domain.Entities.Sector", b =>
                 {
                     b.Property<int>("Id")
@@ -1418,6 +2180,106 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sectors", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Ship", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<string>("ShipName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("ShipName");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Ships", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.TotalFee", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<int?>("Fee")
+                        .HasColumnType("int")
+                        .HasColumnName("Fee");
+
+                    b.Property<int?>("Total")
+                        .HasColumnType("int")
+                        .HasColumnName("Total");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.Property<int?>("Vat")
+                        .HasColumnType("int")
+                        .HasColumnName("Vat");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TotalFees", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Voyage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("CreatedDate");
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("DeletedDate");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("UpdatedDate");
+
+                    b.Property<string>("VoyageName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("VoyageName");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Voyages", (string)null);
                 });
 
             modelBuilder.Entity("Core.Security.Entities.EmailAuthenticator", b =>
