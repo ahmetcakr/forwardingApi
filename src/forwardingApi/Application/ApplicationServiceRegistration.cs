@@ -32,6 +32,7 @@ using Application.Services.Demurrages;
 using Application.Services.Detentions;
 using Application.Services.Feeders;
 using Application.Services.BookingTypes;
+using Application.Services.Consignes;
 
 namespace Application;
 
@@ -83,6 +84,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IDetentionsService, DetentionsManager>();
         services.AddScoped<IFeedersService, FeedersManager>();
         services.AddScoped<IBookingTypesService, BookingTypesManager>();
+        services.AddScoped<IConsignesService, ConsignesManager>();
         return services;
     }
 

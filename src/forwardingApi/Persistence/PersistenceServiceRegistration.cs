@@ -40,6 +40,7 @@ public static class PersistenceServiceRegistration
         services.AddScoped<IDetentionRepository, DetentionRepository>();
         services.AddScoped<IFeederRepository, FeederRepository>();
         services.AddScoped<IBookingTypeRepository, BookingTypeRepository>();
+        services.AddScoped<IConsigneRepository, ConsigneRepository>();
         return services;
     }
 }

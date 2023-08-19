@@ -327,6 +327,20 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region Consignes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Consignes.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }
