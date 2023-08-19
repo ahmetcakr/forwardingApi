@@ -383,6 +383,20 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region Routes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Routes.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }

@@ -44,6 +44,7 @@ public static class PersistenceServiceRegistration
         services.AddScoped<IFreeDayRepository, FreeDayRepository>();
         services.AddScoped<IPodRepository, PodRepository>();
         services.AddScoped<IPolRepository, PolRepository>();
+        services.AddScoped<IRouteRepository, RouteRepository>();
         return services;
     }
 }

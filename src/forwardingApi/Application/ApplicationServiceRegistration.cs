@@ -36,6 +36,7 @@ using Application.Services.Consignes;
 using Application.Services.FreeDays;
 using Application.Services.Pods;
 using Application.Services.Pols;
+using Application.Services.Routes;
 
 namespace Application;
 
@@ -91,6 +92,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IFreeDaysService, FreeDaysManager>();
         services.AddScoped<IPodsService, PodsManager>();
         services.AddScoped<IPolsService, PolsManager>();
+        services.AddScoped<IRoutesService, RoutesManager>();
         return services;
     }
 
