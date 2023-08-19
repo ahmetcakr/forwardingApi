@@ -36,6 +36,8 @@ public static class PersistenceServiceRegistration
         services.AddScoped<IFirmTypeRepository, FirmTypeRepository>();
         services.AddScoped<IGroupRepository, GroupRepository>();
         services.AddScoped<ISectorRepository, SectorRepository>();
+        services.AddScoped<IDemurrageRepository, DemurrageRepository>();
+        services.AddScoped<IDetentionRepository, DetentionRepository>();
         return services;
     }
 }

@@ -28,6 +28,8 @@ public class BaseDbContext : DbContext
     public DbSet<FirmType> FirmTypes { get; set; }
     public DbSet<Group> Groups { get; set; }
     public DbSet<Sector> Sectors { get; set; }
+    public DbSet<Demurrage> Demurrages { get; set; }
+    public DbSet<Detention> Detentions { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)

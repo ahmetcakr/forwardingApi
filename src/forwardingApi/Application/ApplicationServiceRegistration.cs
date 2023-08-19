@@ -28,6 +28,8 @@ using Application.Services.EBills;
 using Application.Services.FirmTypes;
 using Application.Services.Groups;
 using Application.Services.Sectors;
+using Application.Services.Demurrages;
+using Application.Services.Detentions;
 
 namespace Application;
 
@@ -75,6 +77,8 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IFirmTypesService, FirmTypesManager>();
         services.AddScoped<IGroupsService, GroupsManager>();
         services.AddScoped<ISectorsService, SectorsManager>();
+        services.AddScoped<IDemurragesService, DemurragesManager>();
+        services.AddScoped<IDetentionsService, DetentionsManager>();
         return services;
     }
 
