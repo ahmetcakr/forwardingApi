@@ -39,6 +39,7 @@ public class BaseDbContext : DbContext
     public DbSet<Route> Routes { get; set; }
     public DbSet<Ship> Ships { get; set; }
     public DbSet<TotalFee> TotalFees { get; set; }
+    public DbSet<Voyage> Voyages { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)
