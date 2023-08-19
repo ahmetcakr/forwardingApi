@@ -7,6 +7,6 @@ public class UpdateBookingTypeCommandValidator : AbstractValidator<UpdateBooking
     public UpdateBookingTypeCommandValidator()
     {
         RuleFor(c => c.Id).NotEmpty();
-        RuleFor(c => c.Type).NotEmpty();
+        RuleFor(c => c.Name).NotEmpty();
     }
 }

@@ -40,25 +40,25 @@ public class Booking : Entity<int>
     public int? TotalFeeID { get; set; }
 
 
-    public virtual Demurrage Demurrage { get; set; }
-    public virtual Detention Detention { get; set; }
-    public virtual BookingType BookingType { get; set; }
-    public virtual Pol Pol { get; set; }
-    public virtual Pod Pod { get; set; }
-    public virtual FreeDay FreeDay { get; set; }
-    public virtual TotalFee TotalFee { get; set; }
-    public virtual Route Route { get; set; }
-    public virtual Company Company { get; set; }
-    public virtual Feeder Feeder { get; set; }
-    public virtual Voyage FeederVoyage { get; set; }
-    public virtual Ship Ship { get; set; }
-    public virtual Voyage ShipVoyage { get; set; }
-    public virtual Customer Shipper { get; set; }
-    public virtual Customer Consigne { get; set; }
-    public virtual Customer Notify { get; set; }
-    public virtual Customer ApplyTo { get; set; }
-    public virtual User OperationResponsible { get; set; }
-    public virtual User MarketingResponsible { get; set; }
+    public virtual Demurrage? Demurrage { get; set; }
+    public virtual Detention? Detention { get; set; }
+    public virtual BookingType? BookingType { get; set; }
+    public virtual Pol? Pol { get; set; }
+    public virtual Pod? Pod { get; set; }
+    public virtual FreeDay? FreeDay { get; set; }
+    public virtual TotalFee? TotalFee { get; set; }
+    public virtual Route? Route { get; set; }
+    public virtual Company? Company { get; set; }
+    public virtual Feeder? Feeder { get; set; }
+    public virtual Voyage? FeederVoyage { get; set; }
+    public virtual Ship? Ship { get; set; }
+    public virtual Voyage? ShipVoyage { get; set; }
+    public virtual Customer? Shipper { get; set; }
+    public virtual Customer? Consigne { get; set; }
+    public virtual Customer? Notify { get; set; }
+    public virtual Customer? ApplyTo { get; set; }
+    public virtual User? OperationResponsible { get; set; }
+    public virtual User? MarketingResponsible { get; set; }
 
 }
 
