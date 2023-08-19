@@ -37,6 +37,7 @@ public class BaseDbContext : DbContext
     public DbSet<Pod> Pods { get; set; }
     public DbSet<Pol> Pols { get; set; }
     public DbSet<Route> Routes { get; set; }
+    public DbSet<Ship> Ships { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)
