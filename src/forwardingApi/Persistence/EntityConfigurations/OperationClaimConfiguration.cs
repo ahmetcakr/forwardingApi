@@ -355,6 +355,20 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region Pods
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Pods.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }

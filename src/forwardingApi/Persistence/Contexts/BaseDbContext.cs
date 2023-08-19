@@ -34,6 +34,7 @@ public class BaseDbContext : DbContext
     public DbSet<BookingType> BookingTypes { get; set; }
     public DbSet<Consigne> Consignes { get; set; }
     public DbSet<FreeDay> FreeDays { get; set; }
+    public DbSet<Pod> Pods { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)
