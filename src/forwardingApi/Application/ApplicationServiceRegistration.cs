@@ -35,6 +35,7 @@ using Application.Services.BookingTypes;
 using Application.Services.Consignes;
 using Application.Services.FreeDays;
 using Application.Services.Pods;
+using Application.Services.Pols;
 
 namespace Application;
 
@@ -89,6 +90,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IConsignesService, ConsignesManager>();
         services.AddScoped<IFreeDaysService, FreeDaysManager>();
         services.AddScoped<IPodsService, PodsManager>();
+        services.AddScoped<IPolsService, PolsManager>();
         return services;
     }
 

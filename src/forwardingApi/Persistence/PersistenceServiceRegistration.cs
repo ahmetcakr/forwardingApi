@@ -43,6 +43,7 @@ public static class PersistenceServiceRegistration
         services.AddScoped<IConsigneRepository, ConsigneRepository>();
         services.AddScoped<IFreeDayRepository, FreeDayRepository>();
         services.AddScoped<IPodRepository, PodRepository>();
+        services.AddScoped<IPolRepository, PolRepository>();
         return services;
     }
 }
