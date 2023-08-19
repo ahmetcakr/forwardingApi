@@ -31,6 +31,7 @@ public class BaseDbContext : DbContext
     public DbSet<Demurrage> Demurrages { get; set; }
     public DbSet<Detention> Detentions { get; set; }
     public DbSet<Feeder> Feeders { get; set; }
+    public DbSet<BookingType> BookingTypes { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)

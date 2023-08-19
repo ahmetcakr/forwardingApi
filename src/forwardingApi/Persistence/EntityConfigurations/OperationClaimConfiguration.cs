@@ -313,6 +313,20 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region BookingTypes
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "BookingTypes.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }
