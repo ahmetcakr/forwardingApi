@@ -411,6 +411,20 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region TotalFees
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "TotalFees.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }

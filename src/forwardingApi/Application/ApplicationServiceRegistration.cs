@@ -38,6 +38,7 @@ using Application.Services.Pods;
 using Application.Services.Pols;
 using Application.Services.Routes;
 using Application.Services.Ships;
+using Application.Services.TotalFees;
 
 namespace Application;
 
@@ -95,6 +96,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IPolsService, PolsManager>();
         services.AddScoped<IRoutesService, RoutesManager>();
         services.AddScoped<IShipsService, ShipsManager>();
+        services.AddScoped<ITotalFeesService, TotalFeesManager>();
         return services;
     }
 

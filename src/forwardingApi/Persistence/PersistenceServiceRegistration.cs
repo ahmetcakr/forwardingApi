@@ -46,6 +46,7 @@ public static class PersistenceServiceRegistration
         services.AddScoped<IPolRepository, PolRepository>();
         services.AddScoped<IRouteRepository, RouteRepository>();
         services.AddScoped<IShipRepository, ShipRepository>();
+        services.AddScoped<ITotalFeeRepository, TotalFeeRepository>();
         return services;
     }
 }
