@@ -3,7 +3,6 @@ using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using Core.Application.Pipelines.Authorization;
-using Core.Application.Pipelines.Caching;
 using Core.Application.Requests;
 using Core.Application.Responses;
 using Core.Persistence.Paging;
@@ -12,16 +11,11 @@ using static Application.Features.Customers.Constants.CustomersOperationClaims;
 
 namespace Application.Features.Customers.Queries.GetList;
 
-public class GetListCustomerQuery : IRequest<GetListResponse<GetListCustomerListItemDto>>, ISecuredRequest, ICachableRequest
+public class GetListCustomerQuery : IRequest<GetListResponse<GetListCustomerListItemDto>>, ISecuredRequest
 {
     public PageRequest PageRequest { get; set; }
 
     public string[] Roles => new[] { Admin, Read };
-
-    public bool BypassCache { get; }
-    public string CacheKey => $"GetListCustomers({PageRequest.PageIndex},{PageRequest.PageSize})";
-    public string CacheGroupKey => "GetCustomers";
-    public TimeSpan? SlidingExpiration { get; }
 
     public class GetListCustomerQueryHandler : IRequestHandler<GetListCustomerQuery, GetListResponse<GetListCustomerListItemDto>>
     {

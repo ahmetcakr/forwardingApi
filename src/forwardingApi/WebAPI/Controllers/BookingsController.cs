@@ -10,8 +10,6 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace WebAPI.Controllers;
 
-[Route("api/[controller]")]
-[ApiController]
 public class BookingsController : BaseController
 {
     [HttpPost]
@@ -53,7 +51,7 @@ public class BookingsController : BaseController
         return Ok(response);
     }
 
-    [HttpGet("/All")]
+    [HttpGet("All")]
     public async Task<IActionResult> GetListAll([FromQuery] PageRequest pageRequest)
     {
         Application.Features.Models.Queries.GetList.GetListBookingQuery getListBookingQuery = new() { PageRequest = pageRequest };

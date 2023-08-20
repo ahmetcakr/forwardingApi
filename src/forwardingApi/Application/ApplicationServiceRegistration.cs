@@ -105,6 +105,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IBookingsService, BookingsManager>();
         services.AddScoped<IBookingTypesService, BookingTypesManager>();
         services.AddScoped<ICompaniesService, CompaniesManager>();
+        services.AddScoped<ICustomersService, CustomersManager>();
         return services;
     }
 

@@ -49,7 +49,6 @@ public class BookingConfiguration : IEntityTypeConfiguration<Booking>
 
         builder.HasIndex(indexExpression: b => b.Id, name: "UK_Booking_ID").IsUnique();
 
-
         builder.HasOne(b => b.Ship).WithMany().HasForeignKey(b => b.ShipID).OnDelete(DeleteBehavior.NoAction);
         builder.HasOne(b => b.Consigne).WithMany().HasForeignKey(b => b.ConsigneID).OnDelete(DeleteBehavior.NoAction);
         builder.HasOne(b => b.Notify).WithMany().HasForeignKey(b => b.NotifyID).OnDelete(DeleteBehavior.NoAction);
