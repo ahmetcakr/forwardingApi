@@ -14,4 +14,10 @@ public class GetListCustomerListItemDto : IDto
     public string? Country { get; set; }
     public string? Phone { get; set; }
     public string? Mail { get; set; }
+    public int? CommercialDetailId { get; set; }
+    public int? CommercialTypeId { get; set; }
+    public int? EBillId { get; set; }
+    public int? FirmTypeId { get; set; }
+    public int? GroupId { get; set; }
+    public int? SectorId { get; set; }
 }

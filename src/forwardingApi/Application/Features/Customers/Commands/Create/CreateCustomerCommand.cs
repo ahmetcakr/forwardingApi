@@ -4,15 +4,13 @@ using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using Core.Application.Pipelines.Authorization;
-using Core.Application.Pipelines.Caching;
-using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Transaction;
 using MediatR;
 using static Application.Features.Customers.Constants.CustomersOperationClaims;
 
 namespace Application.Features.Customers.Commands.Create;
 
-public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>, ISecuredRequest, ICacheRemoverRequest, ILoggableRequest, ITransactionalRequest
+public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>, ISecuredRequest, ITransactionalRequest
 {
     public string? CustomerCode { get; set; }
     public string? CustomerName { get; set; }
@@ -23,12 +21,14 @@ public class CreateCustomerCommand : IRequest<CreatedCustomerResponse>, ISecured
     public string? Country { get; set; }
     public string? Phone { get; set; }
     public string? Mail { get; set; }
+    public int? CommercialDetailId { get; set; }
+    public int? CommercialTypeId { get; set; }
+    public int? EBillId { get; set; }
+    public int? FirmTypeId { get; set; }
+    public int? GroupId { get; set; }
+    public int? SectorId { get; set; }
 
     public string[] Roles => new[] { Admin, Write, CustomersOperationClaims.Create };
-
-    public bool BypassCache { get; }
-    public string? CacheKey { get; }
-    public string CacheGroupKey => "GetCustomers";
 
     public class CreateCustomerCommandHandler : IRequestHandler<CreateCustomerCommand, CreatedCustomerResponse>
     {

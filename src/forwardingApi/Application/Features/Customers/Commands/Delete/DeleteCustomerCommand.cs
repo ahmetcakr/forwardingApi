@@ -5,23 +5,17 @@ using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using Core.Application.Pipelines.Authorization;
-using Core.Application.Pipelines.Caching;
-using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Transaction;
 using MediatR;
 using static Application.Features.Customers.Constants.CustomersOperationClaims;
 
 namespace Application.Features.Customers.Commands.Delete;
 
-public class DeleteCustomerCommand : IRequest<DeletedCustomerResponse>, ISecuredRequest, ICacheRemoverRequest, ILoggableRequest, ITransactionalRequest
+public class DeleteCustomerCommand : IRequest<DeletedCustomerResponse>, ISecuredRequest, ITransactionalRequest
 {
     public int Id { get; set; }
 
     public string[] Roles => new[] { Admin, Write, CustomersOperationClaims.Delete };
-
-    public bool BypassCache { get; }
-    public string? CacheKey { get; }
-    public string CacheGroupKey => "GetCustomers";
 
     public class DeleteCustomerCommandHandler : IRequestHandler<DeleteCustomerCommand, DeletedCustomerResponse>
     {

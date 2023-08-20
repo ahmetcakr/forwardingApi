@@ -4,15 +4,13 @@ using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using Core.Application.Pipelines.Authorization;
-using Core.Application.Pipelines.Caching;
-using Core.Application.Pipelines.Logging;
 using Core.Application.Pipelines.Transaction;
 using MediatR;
 using static Application.Features.Customers.Constants.CustomersOperationClaims;
 
 namespace Application.Features.Customers.Commands.Update;
 
-public class UpdateCustomerCommand : IRequest<UpdatedCustomerResponse>, ISecuredRequest, ICacheRemoverRequest, ILoggableRequest, ITransactionalRequest
+public class UpdateCustomerCommand : IRequest<UpdatedCustomerResponse>, ISecuredRequest, ITransactionalRequest
 {
     public int Id { get; set; }
     public string? CustomerCode { get; set; }
@@ -24,12 +22,14 @@ public class UpdateCustomerCommand : IRequest<UpdatedCustomerResponse>, ISecured
     public string? Country { get; set; }
     public string? Phone { get; set; }
     public string? Mail { get; set; }
+    public int? CommercialDetailId { get; set; }
+    public int? CommercialTypeId { get; set; }
+    public int? EBillId { get; set; }
+    public int? FirmTypeId { get; set; }
+    public int? GroupId { get; set; }
+    public int? SectorId { get; set; }
 
     public string[] Roles => new[] { Admin, Write, CustomersOperationClaims.Update };
-
-    public bool BypassCache { get; }
-    public string? CacheKey { get; }
-    public string CacheGroupKey => "GetCustomers";
 
     public class UpdateCustomerCommandHandler : IRequestHandler<UpdateCustomerCommand, UpdatedCustomerResponse>
     {

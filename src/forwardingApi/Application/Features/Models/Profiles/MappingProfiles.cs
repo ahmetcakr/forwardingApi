@@ -11,5 +11,8 @@ public class MappingProfiles : Profile
     {
         CreateMap<Booking, GetListBookingListItemDto>().ReverseMap();
         CreateMap<Paginate<Booking>, GetListResponse<GetListBookingListItemDto>>().ReverseMap();
+        
+        CreateMap<Customer, GetListCustomerListItemDto>().ReverseMap();
+        CreateMap<Paginate<Customer>, GetListResponse<GetListCustomerListItemDto>>().ReverseMap();
     }
 }

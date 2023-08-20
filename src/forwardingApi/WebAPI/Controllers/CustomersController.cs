@@ -9,8 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
 
-[Route("api/[controller]")]
-[ApiController]
 public class CustomersController : BaseController
 {
     [HttpPost]
@@ -49,6 +47,14 @@ public class CustomersController : BaseController
     {
         GetListCustomerQuery getListCustomerQuery = new() { PageRequest = pageRequest };
         GetListResponse<GetListCustomerListItemDto> response = await Mediator.Send(getListCustomerQuery);
+        return Ok(response);
+    }
+
+    [HttpGet("All")]
+    public async Task<IActionResult> GetListAll([FromQuery] PageRequest pageRequest)
+    {
+        Application.Features.Models.Queries.GetList.GetListCustomerQuery getListCustomerQuery = new() { PageRequest = pageRequest };
+        GetListResponse<Application.Features.Models.Queries.GetList.GetListCustomerListItemDto> response = await Mediator.Send(getListCustomerQuery);
         return Ok(response);
     }
 }

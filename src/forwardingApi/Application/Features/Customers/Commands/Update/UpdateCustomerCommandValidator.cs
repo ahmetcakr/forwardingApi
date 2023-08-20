@@ -16,5 +16,11 @@ public class UpdateCustomerCommandValidator : AbstractValidator<UpdateCustomerCo
         RuleFor(c => c.Country).NotEmpty();
         RuleFor(c => c.Phone).NotEmpty();
         RuleFor(c => c.Mail).NotEmpty();
+        RuleFor(c => c.CommercialDetailId).NotEmpty();
+        RuleFor(c => c.CommercialTypeId).NotEmpty();
+        RuleFor(c => c.EBillId).NotEmpty();
+        RuleFor(c => c.FirmTypeId).NotEmpty();
+        RuleFor(c => c.GroupId).NotEmpty();
+        RuleFor(c => c.SectorId).NotEmpty();
     }
 }

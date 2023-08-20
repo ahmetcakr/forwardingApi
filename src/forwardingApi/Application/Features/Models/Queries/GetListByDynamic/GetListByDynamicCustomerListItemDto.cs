@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Models.Queries.GetListByDynamic;
 
-public class GetListByDynamicListItemDto
+public class GetListByDynamicCustomerListItemDto
 {
     public string? MBLNo { get; set; }
     public string? ProjectNo { get; set; }
