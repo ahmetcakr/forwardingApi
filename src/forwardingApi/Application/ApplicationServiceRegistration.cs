@@ -42,6 +42,7 @@ using Application.Services.TotalFees;
 using Application.Services.Voyages;
 using Application.Services.Bookings;
 using Application.Services.Companies;
+using Application.Services.Ports;
 
 namespace Application;
 
@@ -106,6 +107,7 @@ public static class ApplicationServiceRegistration
         services.AddScoped<IBookingTypesService, BookingTypesManager>();
         services.AddScoped<ICompaniesService, CompaniesManager>();
         services.AddScoped<ICustomersService, CustomersManager>();
+        services.AddScoped<IPortsService, PortsManager>();
         return services;
     }
 

@@ -12,6 +12,13 @@ public static class PersistenceServiceRegistration
     public static IServiceCollection AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<BaseDbContext>(options => options.UseSqlServer(configuration["ConnectionStrings:BaseDb"]));
+
+        // Google cloud mssql connection string
+        // services.AddDbContext<BaseDbContext>(options => options.UseSqlServer(configuration["ConnectionStrings:AzureSql"]));
+
+        
+
+
         services.AddScoped<IEmailAuthenticatorRepository, EmailAuthenticatorRepository>();
         services.AddScoped<IOperationClaimRepository, OperationClaimRepository>();
         services.AddScoped<IOtpAuthenticatorRepository, OtpAuthenticatorRepository>();
@@ -53,6 +60,7 @@ public static class PersistenceServiceRegistration
         services.AddScoped<IBookingTypeRepository, BookingTypeRepository>();
         services.AddScoped<ICompanyRepository, CompanyRepository>();
         services.AddScoped<ICustomerRepository, CustomerRepository>();
+        services.AddScoped<IPortRepository, PortRepository>();
         return services;
     }
 }

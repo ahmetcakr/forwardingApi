@@ -509,6 +509,20 @@ public class OperationClaimConfiguration : IEntityTypeConfiguration<OperationCla
         
         #endregion
         
+        
+        #region Ports
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ports.Admin" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ports.Read" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ports.Write" });
+        
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ports.Add" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ports.Update" });
+        seeds.Add(new OperationClaim { Id = ++id, Name = "Ports.Delete" });
+        
+        #endregion
+        
         return seeds;
     }
 }
