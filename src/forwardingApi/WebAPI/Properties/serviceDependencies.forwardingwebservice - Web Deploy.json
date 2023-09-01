@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "identityapp1": {
+      "type": "identityapp.default",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/forwardingwebservice/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsAzureSql_9F909768E6",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/forwardingapi/databases/forwardingDb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AzureSql",
+      "dynamicId": null
+    },
+    "apis1": {
+      "apiEndpoint": "https://forwardingwebapi.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/forwardingwebapi/apis/WebAPI",
+      "type": "apis.azure"
+    }
+  }
+}
