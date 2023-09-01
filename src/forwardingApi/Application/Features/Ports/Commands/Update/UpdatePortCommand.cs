@@ -2,12 +2,13 @@ using Application.Features.Ports.Rules;
 using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
+using Core.Application.Pipelines.Caching;
 using Core.Application.Pipelines.Transaction;
 using MediatR;
 
 namespace Application.Features.Ports.Commands.Update;
 
-public class UpdatePortCommand : IRequest<UpdatedPortResponse>, ITransactionalRequest
+public class UpdatePortCommand : IRequest<UpdatedPortResponse>, ICacheRemoverRequest, ITransactionalRequest
 {
     public int Id { get; set; }
     public string PortName { get; set; }
@@ -15,6 +16,10 @@ public class UpdatePortCommand : IRequest<UpdatedPortResponse>, ITransactionalRe
     public string CountryCode { get; set; }
     public string CountryName { get; set; }
     public string Region { get; set; }
+
+    public bool BypassCache { get; }
+    public string? CacheKey { get; }
+    public string CacheGroupKey => "GetPorts";
 
     public class UpdatePortCommandHandler : IRequestHandler<UpdatePortCommand, UpdatedPortResponse>
     {
