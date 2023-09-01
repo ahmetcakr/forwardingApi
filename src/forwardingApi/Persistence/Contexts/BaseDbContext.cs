@@ -42,6 +42,7 @@ public class BaseDbContext : DbContext
     public DbSet<Voyage> Voyages { get; set; }
     public DbSet<Booking> Bookings { get; set; }
     public DbSet<Company> Companies { get; set; }
+    public DbSet<Port> Ports { get; set; }
 
     public BaseDbContext(DbContextOptions dbContextOptions, IConfiguration configuration)
         : base(dbContextOptions)
