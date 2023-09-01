@@ -3,14 +3,19 @@ using Application.Features.Ports.Rules;
 using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
+using Core.Application.Pipelines.Caching;
 using Core.Application.Pipelines.Transaction;
 using MediatR;
 
 namespace Application.Features.Ports.Commands.Delete;
 
-public class DeletePortCommand : IRequest<DeletedPortResponse>, ITransactionalRequest
+public class DeletePortCommand : IRequest<DeletedPortResponse>, ICacheRemoverRequest, ITransactionalRequest
 {
     public int Id { get; set; }
+
+    public bool BypassCache { get; }
+    public string? CacheKey { get; }
+    public string CacheGroupKey => "GetPorts";
 
     public class DeletePortCommandHandler : IRequestHandler<DeletePortCommand, DeletedPortResponse>
     {
